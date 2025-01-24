@@ -9,6 +9,11 @@ public class WarmUp
     int e = 7;
     int f = 35;
 
+    int sampleInt = 454453;
+    double sampleDouble = 4598.458;
+    boolean sampleBoolean = true;
+    String sampleString = "afderjdaslkfjasd";
+
     System.out.println(isEven(a));
     System.out.println(isEven(b));
     System.out.println(isEven(c));
@@ -23,11 +28,11 @@ public class WarmUp
   }
 
   // write your methods below
-  public boolean isEven(int num) {
+  public static boolean isEven(int num) {
     return (num % 2) == 0;
   }
 
-  public isDivisible(int a, int b) {
+  public static boolean isDivisible(int a, int b) {
     return (a % b) == 0;
   }
   
